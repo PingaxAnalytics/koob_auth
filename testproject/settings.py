@@ -55,3 +55,6 @@ DJOSER = {
     'ACTIVATION_URL': '#/activate/{uid}/{token}',
     'PASSWORD_VALIDATORS': [validators.is_666],
 }
+
+
+AUTH_USER_MODEL = 'testapp.MyUser'
